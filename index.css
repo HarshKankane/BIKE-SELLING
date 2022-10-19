@@ -1,0 +1,258 @@
+*{
+    padding: 0;
+    margin: 0;
+    text-decoration: none;
+    list-style: none;
+    box-sizing: border-box;
+}
+
+body{
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vd;
+    background-color: aliceblue;
+}
+
+.secOne{
+    height: 15%;
+    width: 100%;
+}
+
+.first_div{
+    padding: 5px;
+    height: 100%;
+    width: 100%;
+    display: flex;
+    /* background-color: #0cd7b8; */
+    background: radial-gradient(circle at 10% 20%, rgb(87, 108, 117) 0%, rgb(37, 50, 55) 100.2%); 
+}
+#logo{
+    height: 65px;
+    width: 80px; 
+    border-radius: 10%;
+    margin-right: 2%;
+    margin-left: 5%;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+  }
+
+li {
+    float: left;
+    font-size: medium;
+  }
+
+li a {
+    display: block;
+    padding: 18px;
+    margin-top: 5%;
+    text-decoration: none;
+    color: aliceblue;
+    font-size: 25px;
+  }
+
+button{
+  /* padding: 6px; */
+  border-radius: 50%;
+  margin-top: 13px;
+  margin-left: 48%;
+  border: none;
+  cursor: pointer;
+  display: block;
+  text-align: center;
+  width: 50px;
+  height: 50px ;
+  font-size: 40px;
+  color: darkred;
+} 
+
+.second_div{
+    padding: 15px;
+    font-size: larger;
+}
+
+.second_div input[type=text]{
+  padding: 6px;
+  margin-top: 8px;
+  margin-right: 16px;
+  font-size: 17px;
+  margin-left: 40%;
+  width: 20%;
+  border: 5%;
+}
+
+
+.secTwo{
+    height: 100%;
+    width: 100%;
+    
+}
+
+.secTwo h1{
+    margin-top: 50px;
+    margin-left: 23%;
+    font-size: 60px;
+    color:darkred;
+    align-items: center;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif ;
+}
+.secTwo input{
+    margin-left: 20%;
+    margin-top: 20px;
+    margin-bottom: 0px;
+    height: 50px;
+    width: 56.5%;
+    border-radius: 12px;
+    border: none;
+    font-size: 20px;
+    padding-left: 250px;
+}
+
+.box{
+    font-family: montserrat;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.col15{
+    margin-top: 20px;
+    width: 18%;
+    height: 400px;
+}
+
+.col24{
+    margin-top: 120px;
+    width: 18%;
+    height: 400px;
+}
+.col3{
+    margin-top: 80px;
+    width: 18%;
+    height: 400px;
+}
+.pics{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+    margin-top: 25px;
+}
+
+.picsLeft{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+    margin-top: 35px;
+}
+
+figure {
+	position: relative;
+	background: url(https://cdnw.nickpic.host/v1TG0s.png);
+    background-size: cover;
+	width: 150px;
+	height: 210px;
+    border: 5px groove  rgb(87, 108, 117);
+	box-sizing: border-box;
+	display: inline-block;
+	margin: 0 auto;
+	background-color: rgba(230, 230, 230, 0.7);
+    border-radius: 12%;
+	color: #666;
+	transition: all 0.35s ease;
+	overflow: hidden;
+	backface-visibility: hidden;
+	box-shadow: 3px 2px 24px 0px rgba(190, 158, 167, 1);
+}
+
+figure p {
+	width: 100%;
+    color: coral;
+	background-color: rgba(0,0,0,.6);
+    /* box-shadow: 0 15px 25px rgba(0,0,0,.6); */
+	border-bottom: 5px solid rgba(255, 254, 254, 0.4);
+	font-family: "Special Elite", cursive;
+    font-weight: bold;
+	padding: 3px;
+    padding-left: 10px;
+	bottom: 5px;
+	position: absolute;
+	transition: all 0.45s ease;
+}
+
+/***/
+
+figure figcaption {
+	transform: translateX(-120%);
+	background-color: rgba(255, 255, 255, 0.9);
+	width: 250px;
+	height: 330px;
+	padding: 20px;
+	position: absolute;
+	top: 0px;
+	bottom: 15px;
+	left: 0px;
+	right: 15px;
+	font-family: "Faustina", serif;
+	font-size: 15px;
+	border: 15px solid rgba(190, 158, 167, 0.4);
+	transition: all 1.5s ease;
+}
+
+figure:hover figcaption {
+	transition: all 1s ease;
+	transform: translate(0, 0);
+}
+figure:hover p {
+	transform: translateX(-120%);
+}
+
+figure .author {
+	text-align: right;
+	margin-top: 25px;
+}
+
+#fig1{
+    background: url(pics/b2.webp);
+    background-size: cover;
+}
+#fig2{
+    background: url(pics/b1.jpg);
+    background-size: cover;
+}
+#fig3{
+    background: url(pics/b3.jpg);
+    background-size: cover;
+}
+#fig4{
+    background: url(pics/b4.jpg);
+    background-size: cover;
+}
+#fig5{
+    background: url(pics/b5.jpg);
+    background-size: cover;
+}
+#fig6{
+    background: url(pics/b6.jpg);
+    background-size: cover;
+}
+#fig7{
+    background: url(pics/b7.jpg);
+    background-size: cover;
+}
+#fig8{
+    background: url(pics/b8.png);
+    background-size: cover;
+}
+#fig9{
+    background: url(pics/b9.jpg);
+    background-size: cover;
+}

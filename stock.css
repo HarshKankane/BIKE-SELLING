@@ -1,0 +1,82 @@
+*{
+    padding: 0;
+    margin: 0;
+    text-decoration: none;
+    list-style: none;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: montserrat;
+}
+.textEdit{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.contact{
+    position: relative;
+    min-height: 100vh;
+    padding: 50px 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    /* background-image: linear-gradient(rgba(240,248,255,0.9),rgba(240,248,255,0.9)),url(book2.jpg);
+     */
+     background: url(bg.png);
+    background-size: cover;
+}
+
+.pos{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+
+.contactForm{
+    width: 75%;
+    padding: 25px;
+    background-color:  rgb(87, 108, 117);
+    border-radius: 12px;
+}
+input{
+    width: 80%;   
+    margin: 12px 0;  
+    padding: 8px 20px;   
+    display: inline-block;  
+    align-items: center; 
+    border: 2px solid aliceblue;   
+    box-sizing: border-box;   
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 15px;
+}
+.send{
+    width: 100px;
+    background-color: #e6faf7; 
+    width: 55%;
+    border: 2px solid #fff;
+    border-radius: 20px;
+    color:  rgb(87, 108, 117);
+    border: none;
+    cursor: pointer;
+    padding: 8px;
+    font-size: 23px;
+    margin-left: 80px;
+}
+
+@media(max-width:858px){
+    .contact{
+        position: relative;
+        height: 100%;
+        padding: 40px 80px;
+    }
+
+   
+    .contactForm{
+        margin-top: 50px;
+        width: 100%;
+        padding: 40px;
+        background-color: #fff;
+    }
+}

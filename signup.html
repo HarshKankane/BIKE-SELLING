@@ -1,0 +1,54 @@
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width,initial-scale=1.0">
+        <title>Sign Up</title>
+        <link rel="stylesheet" href="singUp.css">
+        <!-- <link rel="stylesheet" href="signUp.css"> -->
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.css" integrity="sha512-5A8nwdMOWrSz20fDsjczgUidUBR8liPYU+WymTZP1lmY9G6Oc7HlZv156XqnsgNUzTyMefFTcsFH/tnJE/+xBg==" crossorigin="anonymous" referrerpolicy="no-referrer" />    
+    </head>
+    <body>
+        <section>
+            <div class="container" style="">  
+                <div class="left_div" style="">
+                        <h1 id="welcome">Welcome Back !</h1>
+                        <p id="para">
+                            <br>
+                            To keep connected with us please login with personal info
+                        </p>  <br> <br>
+                        <button class="button " onclick="location.href='login.html'">Sign In</button>
+                </div>
+
+
+                <div class="right_div" style="">
+                    <label for="" class="create_account"> Create Account </label>
+                    <form action="send.php" method="get" >
+                        <div class="inputBox" class="atext">
+                            <input type="text" required="required" name="usernm" autocomplete="off">
+                            <span> Name </span>
+                        </div>
+                        <div class="inputBox" class="atext">
+                            <input type="email" required="required" class="text" name="email" autocomplete="off" >
+                            <span>Email </span>
+                        </div>
+                        <div class="inputBox" class="atext">
+                            <input type="text" required="required" class="text" name="shopnm" autocomplete="off">
+                            <span>Shop Name </span>
+                        </div>
+                        <div class="inputBox" class="atext" >
+                            <input type="text" required="required" id="pw" name="pw" autocomplete="off">
+                            <span>Password </span>
+                        </div>
+                        <div class="inputBox" class="atext" >
+                            <input type="text" required="required" id="confirmpw" name="confirmpw" autocomplete="off"  >
+                            <span>Confirm Password </span>
+                        </div>
+                        <input type="submit" class="button " name = "register" autocomplete="off" ></button>
+                        </form>
+                </div>
+            </div>
+        </section>
+    </body>
+
+    
+</html>

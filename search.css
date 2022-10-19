@@ -1,0 +1,73 @@
+*{
+    padding: 0;
+    margin: 0;
+    text-decoration: none;
+    list-style: none;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: montserrat;
+    color: white;
+}
+
+.container {   
+  padding: 200px;
+  height: 100vh;
+  align-items: center;
+  background-image: linear-gradient(rgba(240,248,255,0.5),rgba(240,248,255,0.5)),url(book2.webp);
+  background-size: cover;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+} 
+
+.transbox {
+  width: 60%;
+  height: 340px;
+  padding: 30px;
+  background-color:  rgb(87, 108, 117);
+  border-radius: 12px;
+  opacity: 0.9;
+  display: flex;
+  align-items:flex-start;
+  flex-direction: column;
+  justify-content: flex-start;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+button {   
+  border: none;
+  color: white;
+  padding: 10px 10px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 17px;
+  margin: 10px 10px;
+  margin-left: 30%;
+  margin-right: 30%;
+  transition-duration: 0.4s;
+  cursor: pointer;
+  background-color:  rgb(87, 108, 117); 
+  width: 40%;
+  border: 2px solid #fff;
+  border-radius: 20px;
+  text-transform: uppercase;
+}   
+
+form {     
+     border: 3px solid #f1f1f1;   
+ }   
+input {   
+     width: 100%;   
+     margin: 8px 0;  
+     padding: 12px 20px;   
+     display: inline-block;  
+     align-items: center; 
+     border: 2px solid aliceblue;   
+     box-sizing: border-box; ] 
+ }  
+
+  
+  
